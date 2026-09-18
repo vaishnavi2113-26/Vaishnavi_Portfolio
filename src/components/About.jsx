@@ -11,8 +11,8 @@ const highlights = [
   },
   {
     icon: Shield,
-    title: 'Cybersecurity (CEH v13)',
-    desc: 'Vulnerability assessment, penetration testing, and secure system design.',
+    title: 'VAPT & Security Testing',
+    desc: 'Web, API, and mobile application security testing aligned with the OWASP Top 10.',
   },
   {
     icon: Brain,
@@ -42,7 +42,7 @@ export default function About() {
               {summary.text}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              {['PHP', 'MySQL', 'Python', 'Cybersecurity', 'Burp Suite', 'Web Security'].map((tag) => (
+              {['VAPT', 'OWASP Top 10', 'Burp Suite', 'Penetration Testing', 'PHP', 'MySQL', 'Python'].map((tag) => (
                 <span
                   key={tag}
                   className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300"

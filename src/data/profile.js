@@ -1,15 +1,15 @@
 export const profile = {
   name: 'Vaishnavi Bhagwat',
-  title: 'MCA Graduate | Full-Stack Developer | Cybersecurity Enthusiast (CEH v13)',
+  title: 'VAPT Analyst | Cybersecurity Professional',
   phone: '8080789816',
   email: 'vbhagwat268@gmail.com',
   linkedin: 'https://www.linkedin.com/in/vaishnavi-bhagwat-26723b3b8',
-  github: 'https://github.com/vaishnavi-bhagwat', // placeholder
+  github: 'https://github.com/vaishnavi2113-26',
   location: 'Nashik, Maharashtra, India',
 }
 
 export const summary = {
-  text: `Motivated MCA graduate with hands-on experience in full-stack web development, cybersecurity (CEH v13), and AI-based applications. Skilled in PHP, MySQL, and Python. Experienced in vulnerability assessment, network scanning, and secure system design. Built a centralized Real Estate CRM system integrating multi-role workflows and API-based lead management. Seeking opportunities in secure enterprise systems and cybersecurity management.`,
+  text: `VAPT Analyst at Clavigerous Systems LLP, specializing in vulnerability assessment and penetration testing of web applications, APIs, and mobile applications. MCA graduate with hands-on experience in manual security testing, OWASP Top 10, Burp Suite, and professional vulnerability reporting. Progressed from Cyber Security Intern to VAPT Analyst at the same organization, performing real-world security assessments and audits. Also experienced in full-stack development with PHP, MySQL, and Python.`,
 }
 
 export const education = [
@@ -29,14 +29,29 @@ export const education = [
 
 export const experience = [
   {
-    role: 'Cybersecurity Intern (VAPT Analyst)',
-    company: 'Clavigerous Systems, Nashik',
-    period: '2026 – Present',
+    role: 'VAPT Analyst',
+    company: 'Clavigerous Systems LLP, Nashik',
+    period: 'Aug 2026 – Present',
+    current: true,
     bullets: [
-      'Working as a VAPT (Vulnerability Assessment & Penetration Testing) Analyst, performing security testing on client web applications.',
-      'Identified and reported multiple critical vulnerabilities including OTP Bypass, Cross-Site Scripting (XSS), Clickjacking, Insecure Direct Object Reference (IDOR), Cross-Site Request Forgery (CSRF), and SQL Injection.',
+      'Performing Vulnerability Assessment and Penetration Testing (VAPT) on web applications, APIs, and mobile applications.',
+      'Identifying, validating, and documenting security vulnerabilities aligned with the OWASP Top 10 and common web application security risks.',
+      'Conducting manual security testing including reconnaissance, enumeration, authentication/authorization testing, input validation testing, and business-logic testing.',
+      'Using Burp Suite and other security assessment tools for testing, analysis, and vulnerability validation.',
+      'Preparing vulnerability reports with severity ratings, impact, evidence, and remediation recommendations.',
+      'Supporting security audits and cybersecurity assessments for client engagements.',
+      'Collaborating with technical teams to communicate vulnerabilities and remediation requirements.',
+    ],
+  },
+  {
+    role: 'Cyber Security Intern',
+    company: 'Clavigerous Systems LLP, Nashik',
+    period: 'Jan 2026 – Aug 2026',
+    bullets: [
+      'Performed security testing on client web applications as a VAPT (Vulnerability Assessment & Penetration Testing) intern.',
+      'Identified and reported vulnerabilities including OTP Bypass, Cross-Site Scripting (XSS), Clickjacking, Insecure Direct Object Reference (IDOR), Cross-Site Request Forgery (CSRF), and SQL Injection.',
       'Used Burp Suite for vulnerability assessment, network scanning, enumeration, and security audits on test environments.',
-      'Currently pursuing Certified Ethical Hacker (CEH v13) certification — applying reconnaissance, scanning, enumeration, and privilege escalation techniques directly during assessments.',
+      'Completed Certified Ethical Hacker (CEH v13) training — applied reconnaissance, scanning, enumeration, and privilege escalation techniques during assessments.',
       'Documented findings and contributed to internal security reports.',
     ],
   },
@@ -198,16 +213,20 @@ export const skills = [
   {
     category: 'Cybersecurity',
     items: [
+      'Vulnerability Assessment & Penetration Testing (VAPT)',
+      'Web Application Security',
+      'API Security Testing',
+      'Mobile Application Security Testing',
+      'OWASP Top 10',
       'Burp Suite',
-      'Vulnerability Assessment',
-      'Penetration Testing',
-      'Network Scanning',
-      'Reconnaissance',
-      'Privilege Escalation (CEH v13 concepts)',
+      'Manual Security Testing',
+      'Vulnerability Reporting',
+      'Authentication & Authorization Testing',
+      'Reconnaissance & Enumeration',
     ],
   },
   {
     category: 'Tools & Platforms',
-    items: ['NetBeans', 'phpMyAdmin', 'VS Code', 'XAMPP / WAMP', 'Git'],
+    items: ['Kali Linux', 'NetBeans', 'phpMyAdmin', 'VS Code', 'XAMPP / WAMP', 'Git'],
   },
 ]

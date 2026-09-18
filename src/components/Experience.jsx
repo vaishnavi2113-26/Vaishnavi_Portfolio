@@ -9,7 +9,7 @@ export default function Experience() {
         <SectionTitle
           eyebrow="Experience"
           title="Work Experience"
-          subtitle="Hands-on cybersecurity work and real-world vulnerability assessments."
+          subtitle="From Cyber Security Intern to VAPT Analyst — real-world security assessments at Clavigerous Systems LLP."
         />
         <Timeline items={experience} type="work" />
       </div>

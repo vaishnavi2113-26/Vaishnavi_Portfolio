@@ -31,6 +31,11 @@ export default function Timeline({ items, type = 'education' }) {
                   <div className={`flex items-center gap-2 text-xs font-semibold text-accent-600 dark:text-accent-400 mb-2 ${idx % 2 === 0 ? 'md:justify-end' : ''}`}>
                     <Calendar size={14} />
                     <span>{item.year || item.period}</span>
+                    {item.current && (
+                      <span className="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wide">
+                        Current
+                      </span>
+                    )}
                   </div>
                   <h3 className="text-lg font-bold mb-1">{item.degree || item.role}</h3>
                   <p className="text-sm text-slate-600 dark:text-slate-400">
